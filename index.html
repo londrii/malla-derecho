@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Curricular Interactiva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Malla Curricular Interactiva</h1>
+
+  <div class="filters">
+    <label for="semesterFilter">Filtrar por semestre:</label>
+    <select id="semesterFilter">
+      <option value="all">Todos</option>
+      <option value="1">1° semestre</option>
+      <option value="2">2° semestre</option>
+      <option value="3">3° semestre</option>
+      <option value="4">4° semestre</option>
+    </select>
+  </div>
+
+  <div class="grid" id="malla">
+    <!-- Los ramos se insertan desde script.js -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
